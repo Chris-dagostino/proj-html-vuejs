@@ -11,6 +11,8 @@ import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
 import MyFooter from './components/MyFooter.vue'
 
+import "./assets/general.scss";
+
 export default {
   name: 'App',
   components: {
@@ -20,6 +22,7 @@ export default {
   }
 }
 </script>
+  
 
 <style lang="scss">
 
