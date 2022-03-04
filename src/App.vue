@@ -5,6 +5,9 @@
     <MyCertification></MyCertification>
     <MyServices></MyServices>
     <MyLogistical></MyLogistical>
+    <MyNumbers></MyNumbers>
+    <MyFeedback></MyFeedback>
+    <MyGetInTouch></MyGetInTouch>
     <MyFooter></MyFooter>
   </div>
 </template>
@@ -15,6 +18,9 @@ import MyJumbo from './components/MyJumbo.vue'
 import MyCertification from './components/MyCertification.vue'
 import MyServices from './components/MyServices.vue'
 import MyLogistical from './components/MyLogistical.vue'
+import MyNumbers from './components/MyNumbers.vue'
+import MyFeedback from './components/MyFeedback.vue'
+import MyGetInTouch from './components/MyGetInTouch.vue'
 import MyFooter from './components/MyFooter.vue'
 
 import "./assets/general.scss";
@@ -27,6 +33,9 @@ export default {
     MyCertification,
     MyServices,
     MyLogistical,
+    MyNumbers,
+    MyFeedback,
+    MyGetInTouch,
     MyFooter,
   }
 }

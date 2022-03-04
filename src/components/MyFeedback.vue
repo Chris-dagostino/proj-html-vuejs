@@ -1,24 +1,23 @@
 <template>
     <!--services-->
-    <section class="services bg_black" >
-        <div class="" >
+    <section class="services" >
+        <div class="my_container" >
             <div class="flex column" >
-                <span class="green" >ROAD TRANSPORT</span>
-                <h3 class="white padg" >Main<span class="bg_txt " > Services</span></h3>
-                <div class="left flex aligne_it white" >
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Odit aut odio quo dolore earum officiis similique tempora 
-                        asperiores iure vel, recusandae corporis sunt harum. 
-                        Voluptatibus explicabo adipisci consectetur debitis asperiores!
-                    </p>
-                    <div class="right item_btn" >
-                        <a class="btn white transparent" href="#">READ MORE</a>
+                <div class=" txt_center" >
+                    <span class="green" >ROAD TRANSPORT</span>
+                    <h3 class="white padg" >Main<span class="bg_txt " > Services</span></h3>
+                    <div class="flex aligne_it white " >
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Odit aut odio quo dolore earum officiis similique tempora 
+                            asperiores iure vel, recusandae corporis sunt harum. 
+                            Voluptatibus explicabo adipisci consectetur debitis asperiores!
+                        </p>
                     </div>
                 </div>
 
                 <!--card-->
-                <div class="flex" >
+                <div class="flex " >
                     <div class="card white" >
                         <i class="fa-solid fa-truck-ramp-box green"></i>
                         <h3>Technology</h3>
@@ -55,7 +54,7 @@
 
 <script>
 export default {
-    name:'MyServices',
+    name:'MyFeedback',
 
 }
 </script>
@@ -64,12 +63,7 @@ export default {
 
     //services
     .services {
-        .left {
-            width: 70%;
-        }
-        .right {
-            width: 30%;
-        }
+        background-color: #000;
 
         .card{
             width: 30%;

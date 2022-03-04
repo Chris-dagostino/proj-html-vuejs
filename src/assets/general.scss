@@ -9,6 +9,18 @@
     width: 70%;
     margin: auto;
 }
+.cont{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.logo{
+    padding: 5px;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    padding-left: 20px;
+}
 
 .bg_txt {
     background-color: #52bbbb;
@@ -34,8 +46,19 @@
     color: #058283;
 }
 
+.bg_dark-green{
+    background-color: #058283;
+}
+
 .bg_green{
     background-color: #52bbbb;
+}
+
+.bg_light_black{
+    background-color: #111117;
+}
+.bg_black{
+    background-color: #000;
 }
 //colori
 
@@ -64,13 +87,12 @@
 
 //bottoni
 .btn{
-    color: #fff;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .transparent{
-    border: 1px solid #52bbbb;
+    border: 1px solid #058283;
 }
 //bottoni

@@ -6,9 +6,8 @@
             
             <nav class="flex space_btw aligne_it" >
                 <div class="left" >
-                    <div class="logo flex" >
-                        <div class="Bg_green item" >N E X</div>
-                        <div class="item" >G E N</div>
+                    <div class="flex" >
+                        <h4> <span class="logo bg_green dark_green " >N E X</span> G E N</h4>
                     </div>
 
                 </div>
@@ -33,7 +32,7 @@
                             <i class="fa-regular fa-user"></i>
                         </li>
                     </ul>
-                    <a class="btn bg_green" href="#">GET IN TOUCH</a>
+                    <a class="btn white bg_green" href="#">GET IN TOUCH</a>
                 </div>
             </nav>
 
@@ -44,8 +43,8 @@
                     regions, whit small, medium and large vehicles.
                 </p>
                 <div class="item_btn" >
-                    <a class="btn bg_green" href="#">GET IN TOUCH</a>
-                    <a class="btn transparent" href="#">READ MORE</a>
+                    <a class="btn white bg_green" href="#">GET IN TOUCH</a>
+                    <a class="btn white transparent" href="#">READ MORE</a>
                 </div>
             </div>
 
@@ -79,15 +78,6 @@ export default {
                     padding: 10px 0px;
                     font-weight: bolder;
                     margin: 1px;
-                }
-    
-                .Bg_green{
-                    background-color: rgb(82, 187, 187, 0.3);
-                    border-top-left-radius: 20px ;
-                    border-bottom-left-radius: 20px ;
-                    color: #52bbbb;
-                    padding-left: 20px;
-                    padding-right: 5px;
                 }
             }
 
