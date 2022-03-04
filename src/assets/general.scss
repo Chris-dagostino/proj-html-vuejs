@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,9 +10,35 @@
     margin: auto;
 }
 
+.bg_txt {
+    background-color: #52bbbb;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+.padg {
+    padding: 30px 0px;
+}
+
+
+//colori
 .green {
     color: #52bbbb;
 }
+
+.white {
+    color: #fff;
+}
+
+.dark_green {
+    color: #058283;
+}
+
+.bg_green{
+    background-color: #52bbbb;
+}
+//colori
+
 
 //regole flex
 .flex{
@@ -30,6 +56,10 @@
 .aligne_it {
     align-items: center;
 }
+
+.txt_center {
+    text-align: center;
+}
 //regole flex
 
 //bottoni
@@ -40,9 +70,6 @@
     text-decoration: none;
 }
 
-.bg_green{
-    background-color: #52bbbb;
-}
 .transparent{
     border: 1px solid #52bbbb;
 }
