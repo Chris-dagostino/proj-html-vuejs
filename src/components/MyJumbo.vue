@@ -2,7 +2,7 @@
     
     <!--jumbotron-->
     <section class="jumbo" >
-        <div class="my_container" >
+        <div class="cont" >
             
             <nav class="flex space_btw aligne_it" >
                 <div class="left" >
@@ -72,20 +72,12 @@ export default {
         color: #fff;
 
         nav {
-            padding-top: 15px;
-            .left {
-                .item {
-                    padding: 10px 0px;
-                    font-weight: bolder;
-                    margin: 1px;
-                }
-            }
 
             .right{
                 ul{
                     list-style-type: none;
                     li{
-                        margin: 0px 20px;
+                        padding: 0px 30px;
                         a{
                             color: #fff;
                             text-decoration: none;

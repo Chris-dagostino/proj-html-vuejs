@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="my_container flex space_btw" >
+        <div class="cont flex space_btw" >
             <div class="left" >
                 <div class="item" >
                     <i class="fa-solid fa-clock"></i> Open Hours Mon-Sat-9:00-18:00
@@ -36,7 +36,6 @@ export default {
             width: 45%;
         }
         .item {
-            padding: 15px 0px;
             color: #bcbdbd;
             text-decoration: none
         };

@@ -5,7 +5,7 @@
     <MyCertification></MyCertification>
     <MyServices></MyServices>
     <MyLogistical></MyLogistical>
-    <MyNumbers></MyNumbers>
+    <MyResults></MyResults>
     <MyFeedback></MyFeedback>
     <MyGetInTouch></MyGetInTouch>
     <MyFooter></MyFooter>
@@ -18,7 +18,7 @@ import MyJumbo from './components/MyJumbo.vue'
 import MyCertification from './components/MyCertification.vue'
 import MyServices from './components/MyServices.vue'
 import MyLogistical from './components/MyLogistical.vue'
-import MyNumbers from './components/MyNumbers.vue'
+import MyResults from './components/MyResults.vue'
 import MyFeedback from './components/MyFeedback.vue'
 import MyGetInTouch from './components/MyGetInTouch.vue'
 import MyFooter from './components/MyFooter.vue'
@@ -33,7 +33,7 @@ export default {
     MyCertification,
     MyServices,
     MyLogistical,
-    MyNumbers,
+    MyResults,
     MyFeedback,
     MyGetInTouch,
     MyFooter,

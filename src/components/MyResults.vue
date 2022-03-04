@@ -1,20 +1,23 @@
 <template>
     <!--numbers-->
-    <section class="numbers txt_center" >
+    <section class="numbers txt_center cont white" >
         <div>
             <span class="dark_green" >HOW IT WORKS IN PRATICS</span>
-            <h3 class="padg" ><span class="dark_green bg_txt " >Logical </span>Pocedure</h3>
+            <h3 class="padg" ><span class="bg_txt " >Results</span>in Numbers</h3>
         </div>
 
-        <div class="card flex padg" >
+        <div class="card flex txt_center padg" >
             <div>
-                <h4>Collection of information</h4>
+                <h4>128</h4>
             </div>
             <div>
-                <h4>Collection of information</h4>
+                <h4>230</h4>
             </div>
             <div>
-                <h4>Collection of information</h4>
+                <h4>517</h4>
+            </div>
+            <div>
+                <h4>94</h4>
             </div>
         </div>
     </section>
@@ -23,7 +26,7 @@
 
 <script>
 export default {
-    name:'MyNumbers',
+    name:'MyResults',
 
 }
 </script>
@@ -36,7 +39,6 @@ export default {
         height: 600px;
         width: 100%;
         object-fit: cover;
-        color: #fff;
         h4{
             width: 50%;
             margin: auto;

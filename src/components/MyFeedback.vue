@@ -1,11 +1,11 @@
 <template>
     <!--services-->
     <section class="services" >
-        <div class="my_container" >
+        <div class="cont" >
             <div class="flex column" >
                 <div class=" txt_center" >
                     <span class="green" >ROAD TRANSPORT</span>
-                    <h3 class="white padg" >Main<span class="bg_txt " > Services</span></h3>
+                    <h3 class="white padg" >Trusted<span class="bg_txt " > Feedback</span></h3>
                     <div class="flex aligne_it white " >
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 

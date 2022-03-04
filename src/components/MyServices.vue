@@ -1,7 +1,7 @@
 <template>
     <!--services-->
     <section class="services bg_black" >
-        <div class="" >
+        <div class="cont" >
             <div class="flex column" >
                 <span class="green" >ROAD TRANSPORT</span>
                 <h3 class="white padg" >Main<span class="bg_txt " > Services</span></h3>

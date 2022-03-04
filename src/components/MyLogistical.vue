@@ -1,6 +1,6 @@
 <template>
     <!--Logistical-->
-    <section class="logistical txt_center" >
+    <section class="logistical txt_center cont" >
         <div>
             <span class="dark_green" >HOW IT WORKS IN PRATICS</span>
             <h3 class="padg" ><span class="dark_green bg_txt " >Logical </span>Pocedure</h3>
@@ -66,7 +66,6 @@ export default {
     //Logistical
     .logistical{
         width: 90%;
-        margin: 30px auto;
         p{
             width: 50%;
             margin: auto;

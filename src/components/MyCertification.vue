@@ -1,6 +1,6 @@
 <template>
     <!--certification-->
-    <section class="certification my_container flex" >
+    <section class="certification cont flex" >
         <div class="flex" >
             <div class="left flex column" >
                 <span>WHO WE ARE</span>
