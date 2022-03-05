@@ -26,20 +26,20 @@
     background-color: #52bbbb;
     padding: 0px 5px;
     margin: 5px;
+    border-radius: 2px;
 }
 
 .padg {
     padding: 30px 0px;
 }
 
-
 //colori
-.green {
-    color: #52bbbb;
-}
-
 .white {
     color: #fff;
+}
+
+.green {
+    color: #52bbbb;
 }
 
 .dark_green {
@@ -74,6 +74,10 @@
 
 .space_btw{
     justify-content: space-between;
+}
+
+.space_ard{
+    justify-content: space-around;
 }
 
 .aligne_it {

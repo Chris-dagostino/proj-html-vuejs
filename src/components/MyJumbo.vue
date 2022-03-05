@@ -29,7 +29,7 @@
                             <a href="#">TESTIMONIALS</a>
                         </li>
                         <li>
-                            <i class="fa-regular fa-user"></i>
+                            <a href="#"><i class="fa-regular fa-user"></i></a>
                         </li>
                     </ul>
                     <a class="btn white bg_green" href="#">GET IN TOUCH</a>
@@ -65,7 +65,8 @@ export default {
 
     //jumbotron
     .jumbo{
-        background-image: url('../assets/img/bg-9.jpg');
+        background: url('../assets/img/bg-9.jpg'), rgb(73, 73, 73);
+        background-blend-mode: overlay;
         height: 900px;
         width: 100%;
         object-fit: cover;
@@ -76,11 +77,20 @@ export default {
             .right{
                 ul{
                     list-style-type: none;
+                    padding: 0px 20px;
                     li{
-                        padding: 0px 30px;
+                        &:hover{
+                            transform: translateY(-10px);
+                        }
+                        
                         a{
                             color: #fff;
                             text-decoration: none;
+                            padding: 30px;
+                            &:hover{
+                                color: #058283;
+                                transition: 1s ease;   
+                            }
                         }
                     }
                 }
