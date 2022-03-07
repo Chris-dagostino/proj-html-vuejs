@@ -93,9 +93,12 @@ export default {
             border-left: 5px solid rgb(82, 187, 187,0.3) ;
             padding-left: 20px;
         }
-        li{
-            padding: 5px;
-            color: grey;
+        ul{
+            margin-left: 20px;
+            li{
+                padding: 5px;
+                color: grey;
+            }
         }
     }
     .right {

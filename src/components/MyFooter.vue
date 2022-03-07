@@ -17,6 +17,8 @@
                             <a class="btn white transparent" href="#">GET IN TOUCH</a>
                         </div>
                     </div>
+
+                
                     <div class="col card flex column white" >
                         <h4>About</h4>
                         <ul>
@@ -86,6 +88,7 @@
                             </li>
                         </ul>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -109,6 +112,8 @@
 </template>
 
 <script>
+
+
 export default {
     name:'MyFooter',
 
