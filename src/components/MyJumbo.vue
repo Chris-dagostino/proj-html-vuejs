@@ -13,21 +13,10 @@
                 </div>
                 <div class="right flex" >
                     <ul class="flex aligne_it" >
-                        <li>
-                            <a href="#">HOME</a>
+                        <li v-for="(link, index) in links" :key="index" >
+                            <a :href="link.url">{{link.text}}</a>
                         </li>
-                        <li>
-                            <a href="#">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="#">SERVICE</a>
-                        </li>
-                        <li>
-                            <a href="#">PROCESS</a>
-                        </li>
-                        <li>
-                            <a href="#">TESTIMONIALS</a>
-                        </li>
+                        
                         <li>
                             <a href="#"><i class="fa-regular fa-user"></i></a>
                         </li>
@@ -57,6 +46,32 @@
 <script>
 export default {
     name:'MyJumbo',
+    data() {
+    return {
+      links: [
+          {
+              text: "HOME",
+              url: "#",
+          },
+          {
+              text: "ABOUT",
+              url: "#",
+          },
+          {
+              text: "SERVICES",
+              url: "#",
+          },
+          {
+              text: "PROCESS",
+              url: "#",
+          },
+          {
+              text: "TESTIMONIALS",
+              url: "#",
+          },
+      ],
+    }
+  }
 
 }
 </script>
