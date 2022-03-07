@@ -2,12 +2,12 @@
     
     <!--jumbotron-->
     <section class="jumbo" >
-        <div class="cont" >
+        <div class="my_container" >
             
             <nav class="flex space_btw aligne_it" >
                 <div class="left" >
                     <div class="flex" >
-                        <h4> <span class="logo bg_green dark_green " >N E X</span> G E N</h4>
+                        <h4> <span class="logo bg_green green " >N E X</span> G E N</h4>
                     </div>
 
                 </div>
@@ -32,7 +32,7 @@
                             <a href="#"><i class="fa-regular fa-user"></i></a>
                         </li>
                     </ul>
-                    <a class="btn white bg_green" href="#">GET IN TOUCH</a>
+                    <a class="btn white bg_dark-green" href="#">GET IN TOUCH</a>
                 </div>
             </nav>
 
@@ -43,7 +43,7 @@
                     regions, whit small, medium and large vehicles.
                 </p>
                 <div class="item_btn" >
-                    <a class="btn white bg_green" href="#">GET IN TOUCH</a>
+                    <a class="btn white bg_dark-green" href="#">GET IN TOUCH</a>
                     <a class="btn white transparent" href="#">READ MORE</a>
                 </div>
             </div>
@@ -81,16 +81,13 @@ export default {
                     li{
                         &:hover{
                             transform: translateY(-10px);
+                            transition: 1s ease;
                         }
                         
                         a{
                             color: #fff;
                             text-decoration: none;
                             padding: 30px;
-                            &:hover{
-                                color: #058283;
-                                transition: 1s ease;   
-                            }
                         }
                     }
                 }

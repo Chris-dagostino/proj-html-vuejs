@@ -4,7 +4,7 @@
         <div class="cont" >
             <div class="flex column" >
                 <span class="green" >ROAD TRANSPORT</span>
-                <h3 class="white padg" >Main<span class="bg_txt " > Services</span></h3>
+                <h3 class="white title padg " >Main <span class="title-diff " > Services</span></h3>
                 <div class="left flex aligne_it white" >
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -28,16 +28,16 @@
                         </p>
                     </div>
                     <div class="card card_centr white" >
-                        <i class="fa-solid fa-truck-ramp-box green"></i>
-                        <h3>Technology</h3>
+                        <i class="fa-solid fa-temperature-low green"></i>
+                        <h3>Reefer Cargo</h3>
                         <p> 
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Possimus, expedita vel itaque, voluptas quam provident,
                         </p>
                     </div>
                     <div class="card white" >
-                        <i class="fa-solid fa-truck-ramp-box green"></i>
-                        <h3>Technology</h3>
+                        <i class="fa-solid fa-boxes-stacked green"></i>
+                        <h3>Dry Cargo</h3>
                         <p> 
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Possimus, expedita vel itaque, voluptas quam provident,
